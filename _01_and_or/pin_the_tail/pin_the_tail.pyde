@@ -25,11 +25,11 @@ def draw():
     global y
     
     # 1. Use the background() function to draw the donkey
-    
+    background()
     # 2. Use the rect() function to draw a box in the upper left
     # corner of the screen:
     # rect(0, 0, 30, 30)
-    
+    rect(0,0,30,30)
     # 3. Now find the x and y coordinates where the tail attaches
     # to the donkey and draw another box with a side of 50
     
