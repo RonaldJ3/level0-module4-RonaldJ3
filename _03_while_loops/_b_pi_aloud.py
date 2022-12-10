@@ -8,6 +8,28 @@ import math
 if __name__ == '__main__':
     window = Tk()
     window.withdraw()
+    pi0 = 3
+    pi1 = 1
+    pi2 = 4
+    pi3 = 1
+    pi4 = 5
+    pi5 = 9
+    pi6 = 2
+    pi7 = 6
+    pi8 = 5
+    pi9 = 3
+    pi10 = 5
+    pi11 = 8
+    pi12 = 9
+    pi13 = 7
+    pi14 = 9
+    pi15 = 3
+    pi16 = 2
+    pi17 = 3
+    pi18 = 8
+    pi19 = 4
+
+
     # TODO) Place the first 20 digits of pi into a variable as a string
     #  3.1415926535897932384
 
