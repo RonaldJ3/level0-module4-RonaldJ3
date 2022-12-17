@@ -36,9 +36,11 @@ if __name__ == '__main__':
     # TODO) Print out the first 3 digits of pi. For example,
     #  pi_str[0]   # first digit
     #  pi_str[1]   # second digit
-
+    print(pi0,pi1,pi2)
     # TODO) Use a while loop to keep asking for the next digit of pi
-
+    for x in range(20) :
+        print
+        #Ask how to make a variable print then another variable print in a for loop
         # TODO) If they are correct, print "correct".
         #  If they are not, print "incorrect" and break out of the while loop
 
