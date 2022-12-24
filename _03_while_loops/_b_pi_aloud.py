@@ -37,10 +37,79 @@ if __name__ == '__main__':
     #  pi_str[0]   # first digit
     #  pi_str[1]   # second digit
     print(pi0,pi1,pi2)
+
+    pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+
     # TODO) Use a while loop to keep asking for the next digit of pi
-    for x in range(20) :
-        print
-        #Ask how to make a variable print then another variable print in a for loop
+    while pi == "1":
+        print(pi3)
+        print("correct")
+        pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+        while pi == "5":
+            print(pi4)
+            print("correct")
+            pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+            while pi == "9":
+                print(pi5)
+                print("correct")
+                pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                while pi == "2":
+                    print(pi6)
+                    print("correct")
+                    pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                    while pi == "6":
+                        print(pi7)
+                        print("correct")
+                        pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                        while pi == "5":
+                            print(pi8)
+                            print("correct")
+                            pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                            while pi == "3":
+                                print(pi9)
+                                print("correct")
+                                pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                                while pi == "5":
+                                    print(pi10)
+                                    print("correct")
+                                    pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                                    while pi == "8":
+                                        print(pi11)
+                                        print("correct")
+                                        pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                                        while pi == "9":
+                                            print(pi12)
+                                            print("correct")
+                                            pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                                            while pi == "7":
+                                                print(pi13)
+                                                print("correct")
+                                                pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                                                while pi == "9":
+                                                    print(pi14)
+                                                    print("correct")
+                                                    pi = simpledialog.askstring(title="Num",prompt="Type the next digit of pi ")
+                                                    while pi == "3":
+                                                        print(pi15)
+                                                        print("correct")
+                                                        pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                                                        while pi == "2":
+                                                            print(pi16)
+                                                            print("correct")
+                                                            pi = simpledialog.askstring(title="Num",prompt="Type the next digit of pi ")
+                                                            while pi == "3":
+                                                                print(pi17)
+                                                                print("correct")
+                                                                pi = simpledialog.askstring(title="Num",prompt="Type the next digit of pi ")
+                                                                while pi == "8":
+                                                                    print(pi18)
+                                                                    print("correct")
+                                                                    pi = simpledialog.askstring(title="Num",prompt="Type the next digit of pi ")
+                                                                    while pi == "4":
+                                                                    print(pi19)
+                                                                    print("correct")
+                                                                    simpledialog(title="Done", prompt="Your done")
+
         # TODO) If they are correct, print "correct".
         #  If they are not, print "incorrect" and break out of the while loop
 
