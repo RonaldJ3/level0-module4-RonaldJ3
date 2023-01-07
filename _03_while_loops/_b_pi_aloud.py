@@ -106,9 +106,9 @@ if __name__ == '__main__':
                                                                     print("correct")
                                                                     pi = simpledialog.askstring(title="Num",prompt="Type the next digit of pi ")
                                                                     while pi == "4":
-                                                                    print(pi19)
-                                                                    print("correct")
-                                                                    simpledialog(title="Done", prompt="Your done")
+                                                                        print(pi19)
+                                                                        print("correct")
+                                                                        simpledialog(title="Done", prompt="Your done")
 
         # TODO) If they are correct, print "correct".
         #  If they are not, print "incorrect" and break out of the while loop
