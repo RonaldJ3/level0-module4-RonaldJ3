@@ -52,7 +52,7 @@ if __name__ == '__main__':
             while pi == "9":
                 print(pi5)
                 print("correct")
-                pi = simpledialog.askstring(title="Num", prompt="Type the next digit of pi ")
+                pi = simpledialog.askstr5ing(title="Num", prompt="Type the next digit of pi ")
                 while pi == "2":
                     print(pi6)
                     print("correct")
@@ -107,8 +107,7 @@ if __name__ == '__main__':
                                                                     pi = simpledialog.askstring(title="Num",prompt="Type the next digit of pi ")
                                                                     while pi == "4":
                                                                         print(pi19)
-                                                                        print("correct")
-                                                                        simpledialog(title="Done", prompt="Your done")
+                                                                        simpledialog.simpleDialog("You did it")
 
         # TODO) If they are correct, print "correct".
         #  If they are not, print "incorrect" and break out of the while loop
