@@ -37,7 +37,7 @@ if __name__ == '__main__':
     money_in_dollars = 3.00
 
     # TODO) Write a while loop that ends when you have no money left
-
+    while
         # TODO) Call the vending_machine() function and save the money spent
         #  in a variable, for example:
         #  money_spent = vending_machine(money_in_dollars)
